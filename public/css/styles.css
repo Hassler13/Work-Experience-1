@@ -810,12 +810,13 @@ img {
     flex-wrap: wrap;
   }
 
-  .nav-links{
+  .site-header .nav-links{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding: 20px 80px;
+    gap: 12px;
+    width: 100%;
+    padding-top: 12px;
   }
 
   .hero-media {
