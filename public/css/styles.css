@@ -196,9 +196,9 @@ img {
   background: linear-gradient(135deg, var(--orange) 0%, var(--orange) 50%, var(--white) 50%, var(--white) 100%);
 }
 
-.site-header--home .container {
+/* .site-header--home .container {
   flex-wrap: nowrap;
-}
+} */
 
 .site-header--home nav {
   min-width: 0;
@@ -759,6 +759,11 @@ img {
     padding: 64px 0;
   }
 
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
   .feature-row {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -799,4 +804,26 @@ img {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+
+  .playbook-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+  }
+
+  .hero-media {
+    width: 100%;
+  }
+
+  .toggle-menu {
+    display: block;
+  }
+
 }
