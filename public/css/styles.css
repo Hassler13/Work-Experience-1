@@ -788,7 +788,13 @@ img {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 950px) {
+  .playbook-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px){
   .site-header--home .nav-links {
     display: flex;
     flex-wrap: wrap;
@@ -817,7 +823,7 @@ img {
 
   .hero-inner {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .feature-row {
@@ -844,7 +850,7 @@ img {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 34px;
   }
